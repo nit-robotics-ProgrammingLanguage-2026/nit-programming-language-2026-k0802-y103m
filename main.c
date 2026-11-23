@@ -24,6 +24,7 @@ int main(void)
     printf("%.4f,%.4f,%.4f\n", s, c, t);
     return 0;
 }
+
 void calc_trig(double deg, double *s, double *c, double *t)
 {
     double rad = deg * M_PI / 180.0;  
