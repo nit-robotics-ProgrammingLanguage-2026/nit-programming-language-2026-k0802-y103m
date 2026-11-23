@@ -5,7 +5,7 @@
 #include <math.h>
  
 #ifndef M_PI
-#define M_PI 3.14159265358979323846
+#define M_PI  3.14159265358979323846
 #endif
  
 void calc_trig(double deg, double *s, double *c, double *t);
@@ -24,7 +24,6 @@ int main(void)
     printf("%.4f,%.4f,%.4f\n", s, c, t);
     return 0;
 }
- 
 void calc_trig(double deg, double *s, double *c, double *t)
 {
     double rad = deg * M_PI / 180.0;  
